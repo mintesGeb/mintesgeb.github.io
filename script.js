@@ -9,8 +9,9 @@ let output = document.getElementById("output");
 
 //   alert(firstValue);
 btnAdd.addEventListener("click", function () {
-  let sum = firstValue.value + secondValue.value;
-  output.innerHTML = sum;
+  let num1 = Number(firstValue.value);
+  let num2 = Number(secondValue.value);
+  output.innerHTML = add(num1, num2);
 });
 
 btnSub.addEventListener("click", function () {
@@ -23,6 +24,6 @@ btnMultiply.addEventListener("click", function () {
   output.innerHTML = prod;
 });
 
-function addValues(a, b) {
+function add(a, b) {
   return a + b;
 }

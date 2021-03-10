@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
+
     <title>My Calculator</title>
   </head>
 
@@ -14,24 +15,17 @@
       <input class="second-value" type="number" /><br />
       <label for="Operation">Operation:</label><br />
 
-      <button
-        class="btn add"
-        type="submit"
-        onclick="console.log(addValues(5,6))"
-      >
-        +
-      </button>
+      <button class="btn add" type="button">+</button>
 
-      <button class="btn sub" type="submit">-</button>
+      <button class="btn sub" type="button">-</button>
 
-      <button class="btn multiply" type="submit">X</button>
+      <button class="btn multiply" type="button">X</button>
       <p>Result:</p>
       <span id="output"> ... </span>
     </form>
     <p>
       <a href="https://validator.w3.org/check/referer">Validate</a>
     </p>
-
     <script src="script.js" charset="utf-8"></script>
   </body>
 </html>
