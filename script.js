@@ -8,13 +8,14 @@ let btnMultiply = document.querySelector(".multiply");
 let output = document.getElementById("output");
 
 //   alert(firstValue);
-// btnAdd.addEventListener("click", function () {
-//   console.log(parseInt(firstValue.value));
+btnAdd.addEventListener("click", function () {
+  let sum = firstValue.value + secondValue.value;
+  output.innerHTML = sum;
+});
 
-//   console.log(title);
-// });
 btnSub.addEventListener("click", function () {
-  console.log(title.textContent);
+  let difference = firstValue.value - secondValue.value;
+  output.innerHTML = difference;
 });
 
 btnMultiply.addEventListener("click", function () {
