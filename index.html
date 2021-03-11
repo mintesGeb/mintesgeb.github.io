@@ -2,34 +2,70 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Roboto:wght@300;900&family=Stick&display=swap"
+      rel="stylesheet"
+      <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
+    />
     <title>My Life story</title>
   </head>
+
   <body>
-    <h1>My Life Story</h1>
-    <img
-      src="https://mir-s3-cdn-cf.behance.net/user/276/79d37559241577.5d1a137cbcc6e.jpg"
-      alt="profile pic"
-    />
-    <p>
-      I am a strategic and creative thinker, which is a result of my training in
-      multiple disciplines Architecture, industrial design, and software
-      development. I enjoy working collaboratively and solving problems through
-      systems thinking. I love taking on challenges and am eager to learn new
-      things in the process.
-    </p>
-    <p>My Hobbie are:</p>
+    <div id="title-div">
+      <h1 id="title">My Life Story</h1>
+      <i class="icon fad fa-book-open"></i>
+    </div>
+
+    <table id="intro">
+      <tr>
+        <th>
+          <img
+            class="my-img"
+            src="https://mir-s3-cdn-cf.behance.net/user/276/79d37559241577.5d1a137cbcc6e.jpg"
+            alt="profile pic"
+          />
+        </th>
+        <th id="description-cell">
+          <p class="name">I am <span id="name">Mintes</span></p>
+          <p class="description">
+            I am a strategic and creative thinker, which is a result of my
+            training in multiple disciplines Architecture, industrial design,
+            and software development. I enjoy working collaboratively and
+            solving problems through systems thinking. I love taking on
+            challenges and am eager to learn new things in the process.
+          </p>
+        </th>
+      </tr>
+    </table>
+    <p class="subtitle-on-white"><i class="fad fa-book-open"></i>My Hobbies</p>
     <ul>
-      <li>Reading</li>
+      <li><i class="fad fa-book-open"></i>Reading</li>
       <li>Coding</li>
       <li>Worshiping and Playing music</li>
       <li>Sports</li>
     </ul>
-    <a href="./businessAdd.html" target="blank"
-      >Check Out My Future Businesses here</a
-    >
+    <div class="passion-div">
+      <p class="subtitle-on-color">Passion</p>
+      <a href="./businessAdd.html" target="blank"
+        >Check Out My Future Businesses here</a
+      >
+      <br />
+      <br />
+      <a href="./form.html" target="blank">Please fill your info here.</a>
+    </div>
     <br />
-    <br />
-    <a href="./form.html" target="blank">Please fill your info here.</a> <br />
     <br />
     <p>
       Please use this

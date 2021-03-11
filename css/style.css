@@ -1,0 +1,76 @@
+/* fonts
+font-family: 'Dancing Script', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Stick', sans-serif; */
+
+/* color
+#d8c292 - baige
+ #5b5b5b - dark gray
+ #b67171 - pinkish
+ #c19065 - brown*/
+
+body {
+  font-family: Helvetica, sans-serif;
+  margin: 0;
+  text-align: center;
+}
+
+#intro {
+  background-color: #d8c292;
+}
+#name {
+  font-family: "Dancing Script", cursive;
+  font-size: 40px;
+  color: #5b5b5b;
+}
+#title {
+  color: #b67171;
+  text-align: left;
+  margin: 0;
+  padding: 25px 50px;
+}
+#title-div {
+  background-color: #5b5b5b;
+
+  margin: 0;
+  height: 87px;
+}
+.passion-div {
+  background-color: #d8c292;
+  padding: 10px 50px 10px;
+}
+.description {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  padding: 20px 50px 80px;
+  text-align: left;
+}
+.my-img {
+  margin: 0;
+  width: 200px;
+  padding: 15%;
+}
+.name {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 30px;
+}
+
+.subtitle-on-white {
+  color: #c19065;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 30px;
+}
+.subtitle-on-color {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 30px;
+  padding: 5px auto 20px;
+  margin: 10px auto;
+}
+
+.icon {
+  height: 100px;
+}
