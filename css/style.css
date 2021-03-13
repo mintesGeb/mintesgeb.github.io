@@ -74,6 +74,21 @@ body {
 .icon {
   height: 100px;
 }
-.calc-img {
-  width: 20%;
+.app-img {
+  width: 30%;
+}
+/* .alarm-img {
+  width: 60%;
+} */
+
+.app-link-th {
+  /* border: solid 1px black; */
+  text-align: center;
+  width: 400px;
+  /* margin: 0;
+  padding: 10px; */
+}
+.app-table {
+  padding: 20px;
+  margin: 10px;
 }
